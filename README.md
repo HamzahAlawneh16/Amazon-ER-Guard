@@ -36,8 +36,8 @@ The system follows a high-performance pipeline to ensure **Inference Latency < 5
 2.  **Encoding:** Transform categorical Jordan provinces into numerical vectors (e.g., *Irbid* → `2`).
 3.  **Intelligence:** The XGBoost model analyzes the vector to predict the **Probability of Return**.
 4.  **Decision (A* Logic):** $$Total Cost = (Distance \times Fuel Rate) + (Risk Probability \times Loss Penalty)$$
-5.  **Execution:** * **Cost < 35 JOD:** ✅ **RELEASE FOR DISPATCH**
-    * **Cost > 35 JOD:** 🚨 **AUTO-RE-ROUTE TO HUB**
+5.  **Execution:** * **Cost < 35 JOD:**  **RELEASE FOR DISPATCH**
+    * **Cost > 35 JOD:**  **AUTO-RE-ROUTE TO HUB**
 
 
 
